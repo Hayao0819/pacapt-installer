@@ -113,6 +113,7 @@ function check_debian () {
         case $ID in 
             ubuntu ) blue_log "The distribution is Ubuntu." ;;
             debian ) blue_log "The distribution is Debian." ;;
+            raspbian ) blue_log "The distribution is Raspberry Pi OS." ;;
             * ) red_log "This mode is only available for Debian and its derivatives."
                 exit 1 ;;
         esac
